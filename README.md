@@ -1,0 +1,1 @@
+# This is a repo for the Intro to Programming with JavaScript book exercises in JS100 #
