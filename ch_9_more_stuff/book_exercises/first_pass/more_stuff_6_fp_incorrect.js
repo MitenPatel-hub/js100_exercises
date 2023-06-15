@@ -15,7 +15,7 @@ let words = [
 
 console.log(allMatches(words, /lab/)); // => ['laboratory', 'flab', 'elaborate']
 
-Model Answer #1:
+Model Answer #1:*/
 
 let words = [
   'laboratory',
@@ -30,7 +30,7 @@ let allMatches = (words, pattern) => words.filter(word => pattern.test(word));
 
 console.log(allMatches(words, /lab/)); 
 
-Model Answer #2: */
+/*Model Answer #2: 
 
 let words = [
   'laboratory',
@@ -51,4 +51,4 @@ function allMatches(words, pattern) {
   return matches;
 }
 
-console.log(allMatches(words, /lab/)); 
+console.log(allMatches(words, /lab/)); */
